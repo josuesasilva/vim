@@ -94,6 +94,7 @@ if has("gui_running")
     colorscheme tir_black
     set nu
     set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
+    let g:airline_powerline_fonts = 1
     set cursorline!
     set guioptions-=m  "remove menu bar
     set guioptions-=T  "remove toolbar
@@ -182,7 +183,6 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extr
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
 
 " }}}
 
