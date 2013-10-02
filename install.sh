@@ -4,8 +4,8 @@ cd ~/.vim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 ln -s ~/.vim/.vimrc ~/
 mkdir -p ~/.fonts
-cp ~/.vim/fonts/DroidSansMono.ttf ~/.fonts
-fc-cache -vf
+cp ~/.vim/fonts/Droid\ Sans\ Mono\ for\ Powerline.otf ~/.fonts
+fc-cache -vf ~/.fonts
 vim +BundleInstall! +q
 
 if man pacman > /dev/null; then # verify if is Arch Linux
