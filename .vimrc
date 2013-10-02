@@ -37,12 +37,12 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'gregsexton/MatchTag'
 Bundle 'Shougo/unite.vim'
-Bundle 'fholgado/minibufexpl.vim'
 Bundle 'ap/vim-css-color'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'moll/vim-bbye'
 Bundle 'matze/vim-move'
-Bundle 'itchyny/lightline.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'bling/vim-airline'
 
 " vim-scripts repos
 Bundle 'tir_black'
@@ -179,6 +179,9 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " YCM
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
 
 " }}}
 
