@@ -206,9 +206,6 @@ imap <F1> <Esc>
 nnoremap <leader>us :set hls!<cr> " unhighlight selection
 nnoremap <leader>ss :set hls<cr>  " highlight on
 
-nnoremap <leader>. :vertical resize +5<cr> " resize vertical split to right
-nnoremap <leader>, :vertical resize -5<cr> " resize vertical split to left
-
 " Tamanho da tabulação
 nnoremap <leader>2 <esc>:set expandtab tabstop=2 softtabstop=2 shiftwidth=2<cr>
 nnoremap <leader>4 <esc>:set expandtab tabstop=4 softtabstop=4 shiftwidth=4<cr>
